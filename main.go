@@ -19,7 +19,7 @@ import (
 	"github.com/avelino/awesome-go/pkg/slug"
 )
 
-// Link contains info about awesome url
+// Link contains relevant info about awesome url
 type Link struct {
 	Title       string
 	URL         string
@@ -44,6 +44,7 @@ var staticFiles = []string{
 }
 
 // Templates
+//
 //go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
 var tplFs embed.FS
 
